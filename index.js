@@ -39,6 +39,10 @@ app.post('/addData', async(req, res) => {
     })
 })
 
+app.get('/', async(req, res) => {
+    res.send("Welcome to Plant Watering API")
+})
+
 app.get('/getData', async(req, res) => {
     console.log('GET request at /getData');
     try {

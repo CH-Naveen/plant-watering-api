@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/e15614c1-aa51-4430-970b-9ce5f5ec3ab5/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/plant-watering-api",
+  "appService.deploySubpath": "."
+}
