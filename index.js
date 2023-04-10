@@ -13,10 +13,10 @@ app.use(bodyParser.json())
 app.use(bodyParser({urlencoded:true}))
 
 mongoose.connect(
-    'mongodb+srv://chetan:chetan@cluster0.xgz0mib.mongodb.net/?retryWrites=true&w=majority',
+    'mongodb+srv://chittalanaveen:naveen123@cluster0.ivxs47q.mongodb.net/?retryWrites=true&w=majority',
     (err) => {
         if(err) {
-            console.log('err');
+            console.log(err);
         } else {
             console.log('connected to db');
         }
